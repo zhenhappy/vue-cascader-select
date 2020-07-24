@@ -84,16 +84,17 @@ export default {
       this.$emit('select', option);
     },
     handleOpen(withKeyboard = false) {
-      this.$emit('opened');
       this.isOpen = !this.isOpen;
       this.withKeyboard = withKeyboard;
     },
     handleClose() {
-      this.$emit('closed');
       this.isOpen = false;
     },
   },
   watch: {
+    isOpen(isOpen) {
+      this.$emit(isOpen ? 'opened' : 'closed');
+    },
     value() {
       this.isOpen = false;
     },
