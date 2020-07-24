@@ -1,17 +1,17 @@
 {
-  "name": "vue-cascader-select",
-  "version": "1.2.0",
+  "name": "vue-cascader-select2",
+  "version": "1.2.1",
   "description": "Cascader Select for Vue",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeoCoast/vue-cascader-select.git"
+    "url": "git+https://github.com/zhenhappy/vue-cascader-select2.git"
   },
-  "author": "Nicolás Tinte",
+  "author": "Zhen Happy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NeoCoast/vue-cascader-select/issues"
+    "url": "https://github.com/zhenhappy/vue-cascader-select2/issues"
   },
-  "homepage": "https://neocoast.github.io/vue-cascader-select/",
+  "homepage": "https://zhenhappy.github.io/vue-cascader-select2/",
   "keywords": [
     "vue",
     "cascader",

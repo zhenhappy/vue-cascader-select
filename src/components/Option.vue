@@ -39,9 +39,7 @@ export default {
       type: Array,
       validator: value => validateOptions(value),
     },
-    value: {
-      type: [String, Number],
-    },
+    value: null,
     selectable: {
       type: Boolean,
       default: true,

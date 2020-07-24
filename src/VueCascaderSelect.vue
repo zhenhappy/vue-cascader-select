@@ -61,7 +61,7 @@ export default {
   props: {
     placeholder: {
       type: String,
-      default: 'Please select...',
+      default: '',
     },
     options: {
       type: Array,
@@ -84,10 +84,12 @@ export default {
       this.$emit('select', option);
     },
     handleOpen(withKeyboard = false) {
+      this.$emit('opened');
       this.isOpen = !this.isOpen;
       this.withKeyboard = withKeyboard;
     },
     handleClose() {
+      this.$emit('closed');
       this.isOpen = false;
     },
   },
